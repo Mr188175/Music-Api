@@ -1,3 +1,5 @@
+/* for all content start */
+
 * {
     box-sizing: border-box;
 }
@@ -8,6 +10,10 @@ body {
     margin:0;
 }
 
+/* for all content end */
+
+
+/* button and input style start */
 button {
     cursor: pointer;
 }
@@ -20,7 +26,10 @@ input:focus,button:focus {
     outline: none;
 }
 
+/* button and input style end */
 
+
+/* header style start */
 header {
     background-image: url(img.jpg);
     background-repeat: no-repeat;
@@ -52,7 +61,10 @@ header h1 {
     margin: 0 0 30px;
 }
 
+/* header style end */
 
+
+/* form section style start */
 form {
     position: relative;
     width: 500px;
@@ -83,6 +95,9 @@ form button {
 
 }
 
+/* form section style end */
+
+/* this will come from javascript */
 .btn {
     background-color: #8d56fd;
     border: 0;
@@ -104,6 +119,10 @@ ul.songs li {
 
 }
 
+/* this will come from javascript */
+
+
+/* container section style start */
 .container {
     margin: 30px auto;
     max-width: 100%;
@@ -120,6 +139,10 @@ ul.songs li {
     text-align:center;
 }
 
+
+/* container section style end */
+
+/* pagination section start */
 .centerd {
     display: flex;
     justify-content: center;
@@ -130,3 +153,6 @@ ul.songs li {
     margin: 15px;
 
 }
+
+
+/* pagination section end */
